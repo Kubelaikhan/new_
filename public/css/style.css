@@ -1,0 +1,129 @@
+/* body {
+    background-color: salmon;
+} */
+
+/* a {
+     text-decoration: none;  color: black;
+     }
+a:hover {
+    background-color: pink; 
+    color: aliceblue;
+    } */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+.cuntainer{
+    width:100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuntainer form{
+    width:90%;
+    max-width:500px;
+    padding:50px 30px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+    
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-group label{
+    flex-basis: 20%;
+}
+
+.input-group input {
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 20px;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+form button{
+    background-color: rgba(255, 255, 255, 0);
+    font-style: Helvetica Neue;
+    font-size: 20px;
+    color: black;
+    border-radius:  20px;
+    border: 2px rgba(14, 12, 12, 0.7);
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    padding: 9px;
+    margin: 40px auto 30px;
+}
+
+.input-group span{
+
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-size: 14px;
+    color: royalblue;
+}
+
+#submit-error{
+    color: red;
+}
+
+/* .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  } */
+
+  /* .form-signin .checkbox {
+    font-weight: 400;
+  } */
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-registration{
+    border-radius:0;
+    margin-bottom: -1px;
+  }
+  
